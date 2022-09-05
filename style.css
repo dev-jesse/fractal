@@ -305,7 +305,8 @@ nav .fas {
         margin-bottom: 30px;
     }
     .sidebar {
-        position: absolute;
+        display: none;
+        /* position: absolute;
         background: #A52566;
         height: 100vh;
         width: 225px;
@@ -315,9 +316,9 @@ nav .fas {
         right: -225px;
         top: 0;
         z-index: 5;
-        transition: right .2s ease;
+        transition: right .2s ease; */
     }
-    .hero nav ul {
+    /* .hero nav ul {
         margin-top: 75px;
     }
     .hero nav ul li {
@@ -337,7 +338,7 @@ nav .fas {
     }
     nav .fa-bars {
         z-index: 3;
-    }
+    } */
     .content {
         color: #fff;
         position: absolute;
@@ -350,7 +351,7 @@ nav .fas {
         display: none;
     }
     .mobileBtn {
-        display: block;
+        display: none;
     }
     button {
         color: #fff;
