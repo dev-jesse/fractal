@@ -46,7 +46,7 @@ if (isset($_POST['submit'])) {
                 <i class="fas fa-times" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><button type="button"><a href="login.html">Login</a></button></li>
+                    <li><button type="button"><a href="login.php">Login</a></button></li>
                 </ul>
             </div>
             <i class="fas fa-bars" onclick="showMenu()"></i>

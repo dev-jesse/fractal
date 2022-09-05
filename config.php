@@ -9,9 +9,11 @@ $db = substr($url["path"], 1);
 
 $conn = new mysqli($server, $username, $password, $db);
 
-// $server = "us-cdbr-east-06.cleardb.net";
-// $user = "b325bf00362f81";
-// $pass = "f98f7673";
+
+// Localhost:
+// $server = "localhost";
+// $user = "root";
+// $pass = "";
 // $database = "fractal_login_system";
 
 // $conn = mysqli_connect($server, $user, $pass, $database);
