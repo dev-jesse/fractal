@@ -13,8 +13,8 @@ if (isset($_SESSION['username'])) {
 if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $email = $_POST['email'];
-    $password = md5($_POST['password']);
-    $cpassword = md5($_POST['cpassword']);
+    $password = sha2($_POST['password']);
+    $cpassword = sha2($_POST['cpassword']);
 
     if ($password == $cpassword) {
         $sql = "SELECT * from users WHERE email='$email'";
